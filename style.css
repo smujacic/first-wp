@@ -1,0 +1,48 @@
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Rufina', serif;*/
+
+html {
+	font-family: 'Roboto', serif;
+}
+
+.wrapper {
+	width: 1140px;
+	margin: auto;
+}
+
+.menu{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	align-items: baseline; 
+}
+
+.menu ul li{
+	display:inline-block;
+	margin-right: 50px;
+	text-transform: uppercase;
+}
+
+.intro {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	
+
+}
+
+.intro h1, .intro h6 {
+	font-family: 'Rufina', serif;
+}
+
+
+.intro h6 {
+		text-transform: uppercase;
+		color: #ff817e;
+		font-size: 15pt;
+		line-height: 72pt;
+}
+
+.intro h1 {
+		font-size: 60pt;
+		line-height: 75pt;
+		font-weight: 700;
+}
